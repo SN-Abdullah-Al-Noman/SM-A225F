@@ -146,7 +146,7 @@ endif
 
         # For GPS built-in mode start @{
         PATH_TO_GPS_DRV      = $(srctree)/drivers/misc/mediatek/connectivity/gps
-        obj-y += gps_drv/
+        obj-y += gps/
         # @} For GPS built-in mode end
 
     endif
