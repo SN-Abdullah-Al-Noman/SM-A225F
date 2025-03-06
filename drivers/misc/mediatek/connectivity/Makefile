@@ -120,7 +120,7 @@ endif
         else
             PATH_TO_BT_DRV       = $(srctree)/drivers/misc/mediatek/connectivity/bt/mt66xx/wmt
         endif
-        obj-y += bt/
+        obj-y += bt/mt66xx/wmt
         # @} For BT built-in mode end
 
 
